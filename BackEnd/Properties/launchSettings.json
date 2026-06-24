@@ -1,4 +1,13 @@
 {
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:57791",
+      "sslPort": 44390
+    }
+  },
   "profiles": {
     "http": {
       "commandName": "Project",
@@ -37,23 +46,7 @@
         "ASPNETCORE_HTTP_PORTS": "8080"
       },
       "publishAllPorts": true,
-      "useSSL": true,
-      "additionalPorts": [
-        {
-          "containerPort": 1883,
-          "hostPort": 1883,
-          "protocol": "tcp"
-        }
-      ]
-    }
-  },
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "iisSettings": {
-    "windowsAuthentication": false,
-    "anonymousAuthentication": true,
-    "iisExpress": {
-      "applicationUrl": "http://localhost:57791",
-      "sslPort": 44390
+      "useSSL": true
     }
   }
 }
