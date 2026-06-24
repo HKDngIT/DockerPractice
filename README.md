@@ -57,3 +57,18 @@ http://localhost:8080/swagger/index.html
 - `--platform linux/arm64` ensures the image is built for the Pi even if the build machine has a different architecture (e.g. x86_64).
 - `ASPNETCORE_ENVIRONMENT=Development` enables the Swagger UI, among other things; for production use, this value should be adjusted or removed accordingly.
 - Useful commands learned from https://raspberrytips.com/docker-on-raspberry-pi/
+
+- Stop the container
+    ```
+    docker stop [container]
+    ```
+
+- Remove the container
+    ```
+    docker rm [container]
+    ```
+
+- start on the new PI
+    ```
+    docker run -d -p 8080:8080 -p 8081:8081 -p 1883:1883 weatherapi:arm64
+    ```
