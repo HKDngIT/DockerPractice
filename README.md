@@ -68,7 +68,12 @@ http://localhost:8080/swagger/index.html
     docker rm [container]
     ```
 
-- start on the new PI
+- start on the PI
     ```
     docker run -d -p 8080:8080 -p 8081:8081 -p 1883:1883 weatherapi:arm64
+    ```
+
+- Logging on the PI
+    ```
+    docker logs -f <container-id>
     ```
