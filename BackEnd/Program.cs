@@ -1,5 +1,6 @@
 using MQTTnet;
 using MQTTnet.Server;
+using MQTTnet.Protocol;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -39,6 +40,26 @@ mqttServer.InterceptingPublishAsync += e =>
         e.ApplicationMessage.Topic,
         e.ApplicationMessage.ConvertPayloadToString(),
         e.ClientId);
+    return Task.CompletedTask;
+};
+
+mqttServer.ValidatingConnectionAsync += e =>
+{
+    if (e.ClientId != "ValidClientId")
+    {
+        e.ReasonCode = MqttConnectReasonCode.ClientIdentifierNotValid;
+    }
+
+    if (e.UserName != "ValidUser")
+    {
+        e.ReasonCode = MqttConnectReasonCode.BadUserNameOrPassword;
+    }
+
+    if (e.Password != "SecretPassword")
+    {
+        e.ReasonCode = MqttConnectReasonCode.BadUserNameOrPassword;
+    }
+
     return Task.CompletedTask;
 };
 

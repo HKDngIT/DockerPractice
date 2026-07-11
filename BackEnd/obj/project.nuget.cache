@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "3eqgFgE5llU=",
+  "dgSpecHash": "O3Hi4+CUEB4=",
   "success": true,
-  "projectFilePath": "C:\\Repositories\\DockerPractice\\BackEnd\\BackEnd.csproj",
+  "projectFilePath": "C:\\Users\\khiem.duogan\\PrivateRepo\\DockerPractice\\BackEnd\\BackEnd.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hkdng\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\mqttnet\\5.1.0.1559\\mqttnet.5.1.0.1559.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\mqttnet.server\\5.1.0.1559\\mqttnet.server.5.1.0.1559.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\hkdng\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\mqttnet\\5.1.0.1559\\mqttnet.5.1.0.1559.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\mqttnet.server\\5.1.0.1559\\mqttnet.server.5.1.0.1559.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\khiem.duogan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
   "logs": []
 }
